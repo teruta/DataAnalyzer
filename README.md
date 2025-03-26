@@ -4,6 +4,17 @@
 グラフ出力の際には、応答値を最小化する最適値も同時に出力します。
 
 ## API
+
+- controller
+    - utils
+        - process_utils
+        - result_utils
+    - types
+    - file
+    - process
+    - result
+    - main
+
 | ファイル名　| 機能　|
 | - | - |
 | utils | 補助関数の定義　|
