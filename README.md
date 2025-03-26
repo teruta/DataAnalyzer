@@ -6,23 +6,23 @@
 ## API
 
 - controller
-    - utils
-        - process_utils
-        - result_utils
     - types
     - file
     - process
     - result
     - main
+    - utils
+        - process_utils
+        - result_utils
 
 | ファイル名　| 機能　|
 | - | - |
-| utils | 補助関数の定義　|
 | types | 辞書の型定義　|
 | file | ファイルの管理 |
 | process | 解析データの編集・最適値の計算 |
 | result | 解析データのグラフ作成・保存　|
 | main | APIの実行クラス定義　|
+| utils | 補助関数の定義　|
 
 ## 使い方
 　run.pyに使用例を示しています。
