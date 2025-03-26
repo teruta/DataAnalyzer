@@ -16,7 +16,8 @@
 ## 使い方
 　run.pyに使用例を示しています。
 以下の引数を定義し、次の形式でプログラムを実行してください。
-‘’‘
+
+‘’‘ 
 API = AnalysisAPI(file_path_dir, out_path_dir, SSA_params, MSSA_params, c_lim, p_lim)
 API.run(start_p, dp)
 ‘’‘
