@@ -17,18 +17,18 @@
 　run.pyに使用例を示しています。
 以下の引数を定義し、実行してください。
 
-| 引数　| 機能　|
-| - | - |
-| model_num | モデル番号　|
-| Fr | リリーフ荷重[kN]　|
-| gamma | 減衰係数比 |
-| Av | 地動規準化最大速度 |
-| c_lim | 減衰係数のグラフ描画範囲　|
-| p_lim | 地動振動数のグラフ描画範囲　|
-| start_p | 地動振動数の初期値　|
-| dp | 地動振動数の増分　|
-| SSA_params | SSAグラフのパラメータ(ファイル名:z軸ラベル,z軸描画範囲)　|
-| MSSA_params | MSSAグラフのパラメータ(ファイル名:y軸ラベル,y軸描画範囲)　|
-| file_path_dir | 読み込みファイルのディレクトリパス |
-| out_path_dir | 保存先ファイルのディレクトリパス |
+| 引数　| 型　| 機能　|
+| - | - | - |
+| model_num | int | モデル番号　|
+| Fr | flaot | リリーフ荷重[kN]　|
+| gamma | float | 減衰係数比 |
+| Av | flaot | 地動規準化最大速度 |
+| c_lim | List | 減衰係数のグラフ描画範囲　|
+| p_lim | List | 地動振動数のグラフ描画範囲　|
+| start_p | flaot | 地動振動数の初期値　|
+| dp | flaot | 地動振動数の増分　|
+| SSA_params | Dict | SSAグラフのパラメータ(ファイル名:z軸ラベル,z軸描画範囲)　|
+| MSSA_params | Dict | MSSAグラフのパラメータ(ファイル名:y軸ラベル,y軸描画範囲)　|
+| file_path_dir | str | 読み込みファイルのディレクトリパス |
+| out_path_dir | str | 保存先ファイルのディレクトリパス |
 
