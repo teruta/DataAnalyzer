@@ -18,14 +18,16 @@
 
 | 引数　| 機能　|
 | - | - |
-| model_num | 補助関数の定義　|
-| Fr | Configの型定義　|
-| gamma | ファイルの管理 |
-| Av | 解析データの編集・最適値の計算 |
-| c_lim | 解析データのグラフ作成・保存　|
-| p_lim | APIの実行　|
-| SSA_graph_params | 補助関数の定義　|
-| MSSA_graph_params | Configの型定義　|
-| file_path_dir | ファイルの管理 |
-| out_path_dir | 解析データの編集・最適値の計算 |
+| model_num | モデル番号　|
+| Fr | リリーフ荷重[kN]　|
+| gamma | 減衰係数比 |
+| Av | 地動規準化最大速度 |
+| c_lim | 減衰係数のグラフ描画範囲　|
+| p_lim | 地動振動数のグラフ描画範囲　|
+| start_p | 地動振動数の初期値　|
+| dp | 地動振動数の増分　|
+| SSA_params | SSAグラフのパラメータ(ファイル名:z軸ラベル,z軸描画範囲)　|
+| MSSA_params | MSSAグラフのパラメータ(ファイル名:y軸ラベル,y軸描画範囲)　|
+| file_path_dir | 読み込みファイルのディレクトリパス |
+| out_path_dir | 保存先ファイルのディレクトリパス |
 
