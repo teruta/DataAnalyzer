@@ -4,7 +4,7 @@ from .types import GraphParamsConfig
 from typing import List
 
 class AnalysisAPI:
-    """ 解析・グラフ出力・最適化を一括で実行するAPIクラス """
+    """ 解析・グラフ出力・最適化を実行するAPIクラス """
     def __init__(self, file_path_dir: str, out_path_dir: str,
                  SSA_params: GraphParamsConfig, MSSA_params: GraphParamsConfig,
                  c_lim: List[float], p_lim: List[float]):
