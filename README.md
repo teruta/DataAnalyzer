@@ -5,7 +5,7 @@
   
 ## API
 ### ライブラリ概要
-- controller
+- DataAnalyzer
     - types
     - file
     - process
@@ -32,6 +32,8 @@
 引数を定義し、次の形式でプログラムを実行してください。  
   
 ```
+from DataAnalyzer.main import AnalysisAPI
+
 API = AnalysisAPI(file_path_dir, out_path_dir, SSA_params, MSSA_params, c_lim, p_lim)
 API.run(start_p, dp)
 ```
